@@ -9,3 +9,72 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+//cria a tabela de usuários: yarn prisma migrate dev --name init
+model user {
+  id        String   @id @default(uuid())
+  name      String
+  email     String
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+
+  @@map("users")
+}
+
+model category {
+  id        String    @id @default(uuid())
+  name      String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @default(now())
+  products  product[]
+
+  @@map("categories")
+}
+
+model product {
+  id          String   @id @default(uuid())
+  name        String
+  price       Float
+  description String
+  banner      String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now())
+
+  category   category @relation(fields: [categoryId], references: [id])
+  categoryId String
+
+  @@map("products")
+  items item[]
+}
+
+model order {
+  id        String   @id @default(uuid())
+  table     Int
+  status    Boolean  @default(false)
+  draft     Boolean  @default(true)
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+
+
+  @@map("orders")
+  items item[]
+  
+
+}
+
+
+model item{
+  id String	@id @default(uuid())
+  amount Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+
+  order   order @relation(fields: [oderId], references: [id])
+  product product @relation(fields: [productId], references: [id])
+
+  @@map("items")
+  oderId String
+  productId String
+}
