@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev server/server.ts"
+    "dev": "ts-node-dev app/server/server.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
