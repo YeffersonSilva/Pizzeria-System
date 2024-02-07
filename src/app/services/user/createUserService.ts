@@ -10,9 +10,34 @@ interface userRequest {
 
 class CreateUserService {
     async execute({ name, email, password }: userRequest) {
-        console.log(name)
+       
+        if (!email) {
+            throw new Error('Email incorrect');
+        }
+        const userAlreadyExists = await prismaClient.user.findFirst({
+            where: {
+                email
+            }
+        });
+        if (userAlreadyExists) {
+            throw new Error('User already exists');
+        }
 
-        return { name: name }
+        const user = await prismaClient.user.create({
+            data: {
+                name,
+                email,
+                password
+            },
+            select: {
+                id: true,
+                name: true,
+                email: true,
+               
+            }
+        });
+
+        return user
 
     }    }
 
