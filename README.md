@@ -41,10 +41,6 @@ Para utilizar o Clima Tempo localmente, siga estes passos:
 
 Digite o nome da cidade que deseja verificar o clima na caixa de pesquisa e pressione Enter ou clique no botão de pesquisa. Você também pode selecionar uma cidade sugerida clicando nos botões de sugestão.
 
-## 🔆 Recursos
-- **Feedback instantâneo:** Saiba se seu palpite é muito alto ou muito baixo.
-- **Dicas:** Se você chegar perto o suficiente, receba uma dica!
-
 ## 🔓 Dependências
 
 Este projeto utiliza as seguintes dependências:
