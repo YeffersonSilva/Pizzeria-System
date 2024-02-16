@@ -1,5 +1,7 @@
 # 🍕 Pizzeria REST API with Node.js and TypeScript
 
+**Note:** This project is currently under development. Features and documentation may be subject to change.
+
 Welcome to the Pizzeria REST API repository, a backend system developed with Node.js and TypeScript designed to efficiently and securely manage orders, menus, and administration for a pizzeria.
 
 ![image](https://github.com/YeffersonSilva/Pizzeria-System/assets/117882117/84d0eef8-3425-422e-af8e-8fa99f160520)
