@@ -85,7 +85,7 @@ Contributions to the project are always welcome. If you're interested in contrib
 
 - **Yefferson Silva** - Focused on the development of the backend, ensuring robust, scalable, and efficient server-side logic. [GitHub Profile](https://github.com/YeffersonSilva)
 
-- **Taina Suárez** - Specialized in interfaces, contributing to the front-end development by designing user-friendly and visually appealing interfaces. [GitHub Profile](https://github.com/YourGitHubUsername)
+- **Taina Suárez** - Specialized in interfaces, contributing to the front-end development by designing user-friendly and visually appealing interfaces. [GitHub Profile](https://github.com/TainaSuarez)
 
 Contributors have dedicated their time and skills to ensure the project is of high quality, user-friendly, and meets the needs of its users. We appreciate all contributions, big or small, and encourage anyone interested in helping the project grow to get involved.
 
