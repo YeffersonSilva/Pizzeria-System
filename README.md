@@ -48,6 +48,24 @@ docker-compose up --build
 ```
 This will start the application in a Docker container, accessible at http://localhost:3333.
 
+## Configuration
+
+### Environment Variables
+
+To configure your environment variables:
+
+1. **Create `.env` from `.env.example`**:
+   Copy the provided `.env.example` to `.env` and update the values accordingly.
+   ```bash
+   cp .env.example .env
+
+Set Up Required Variables:
+  ```bash
+DATABASE_URL: Your database connection string.
+
+Jwt_Secret: A secure key for JWT.
+```
+Ensure your .env file is not committed to version control.
 
 
 ## 🌟 Features
