@@ -84,6 +84,12 @@ Below is the Entity-Relationship Diagram (ERD) for the Pizzeria REST API. This d
 
 This ER diagram helps developers and contributors understand the database structure and relationships, facilitating better integration and development of features.
 
+
+### Requirements Document
+
+For detailed project requirements and planning documentation, please refer to the [Requirements Document](https://drive.google.com/file/d/1Ix1WG07DrrY1RmtG6ySXfuvxP1_z3HWx/view?usp=sharing). This document provides a comprehensive overview of project objectives, specifications, and planning insights.
+
+
 ## 🛠 Technologies Used
 
 This project makes use of several key technologies for backend development, database management, coding efficiency, and deployment. Here's a brief overview of each:
