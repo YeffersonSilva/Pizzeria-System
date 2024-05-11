@@ -40,6 +40,16 @@ To start the server, run the following command:
   ```
 The API will be available at http://localhost:3333.
 
+## Using Docker 
+
+Alternatively, you can use Docker to run the server:
+```bash
+docker-compose up --build
+```
+This will start the application in a Docker container, accessible at http://localhost:3333.
+
+
+
 ## 🌟 Features
 - Order management and real-time tracking.
   ![image](https://github.com/YeffersonSilva/Pizzeria-System/assets/117882117/c4e2e44f-b747-44e5-ba2f-6af192881af6)
