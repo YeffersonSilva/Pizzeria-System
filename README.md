@@ -48,7 +48,13 @@ The API will be available at http://localhost:3333.
 - User authentication and authorization.
 - Integration with online payment systems.
 
+## 📊 ER Diagram
 
+Below is the Entity-Relationship Diagram (ERD) for the Pizzeria REST API. This diagram provides a visual representation of the database schema, illustrating the relationships between the different entities such as Users, Orders, Products, and Categories.
+
+![image](https://github.com/YeffersonSilva/Pizzeria-System/assets/117882117/fbaa4733-5b09-4232-b6de-61560a76d99b)
+
+This ER diagram helps developers and contributors understand the database structure and relationships, facilitating better integration and development of features.
 
 ## 🛠 Technologies Used
 
@@ -77,6 +83,7 @@ This project makes use of several key technologies for backend development, data
 - **Docker**: A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries, and configuration files; they can communicate with each other through well-defined channels.
 
   ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 
 
 ## 👥 Contributing
